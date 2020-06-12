@@ -30,6 +30,9 @@ management system.
  Designed the automatic upgrade mechanism for metrics collectors in clients’ distributed server using
 checksum of the latest collectors.   
 
+
+
+
 Software Engineer at Amazon Game Studios 08/2016 ~ 10/2017   
 Project: Game Services and Core Engine Technology   
 • Using C++ to construct new features with Lumberyard pipeline, allowing users to import files and folders without locally copying and pasting through directories. Using Qt5 framework to realize dialogs and menu options functionalities.   
@@ -39,6 +42,26 @@ prompting decision mechanism, and data streaming into backend data warehouse.
 • Applied the feature that flexibly collects and asynchronously sends customer telemetry data at various parts of the engine, including UI behaviors, hardware specification, and feature usages.   
 • Collaborated with QA members with owned written unit tests throughout the production period, verifying complex and unclear bugs for steps of the bugs’ reproductions and the solution confirmations, improving productivity of bug fixing time.   
 • Work with UX members to replace the old menu layout with the newly designed, implemented menu layout.   
+
+
+
+
+* The Realization Microblog
+  * Realized a Microblog System for users to log in, post blogs, make comments, Asynchronously modify avatar, Asynchronous         post deletion
+  * Applied the A/B test tools in Apache to test the service pressure, the number of requests per second reaches 4839.62 after     using Redis.      
+  * Used Escape Character to realize the XSS defence, Used Redis Cracket to protect Redis      
+  * Used Redis's ZSET data structure to maintain a published microblog ID set S1 for each user, with a score of timestamp    
+  * The code and documents can be seen on []
+
+
+
+
+
+
+
+
+
+
 
 
 # Health Informatics
