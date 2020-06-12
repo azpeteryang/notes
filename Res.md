@@ -51,7 +51,7 @@ prompting decision mechanism, and data streaming into backend data warehouse.
   * Applied the A/B test tools in Apache to test the service pressure, the number of requests per second reaches 4839.62 after     using Redis.      
   * Used Escape Character to realize the XSS defence, Used Redis Cracket to protect Redis      
   * Used Redis's ZSET data structure to maintain a published microblog ID set S1 for each user, with a score of timestamp    
-  * The code and documents can be seen on []
+  * The code and documents can be seen on [https://github.com/azpeteryang/microblog]
 
 
 
