@@ -36,4 +36,16 @@ A reverse proxy is very useful for the reason that it can be delegated a lot of 
 # Load Balancing
 Server Selection Strategy: Round Robin and Weighted Round Robin; Load-based server selection; IP Hashing based selection (select based on geography); Path or service based selection; Mixed Bag (Load balancers for load balancers, different levels of services and functions.)
 
+# Data Base
+* Retional Database: Highly structured
+* Non-retional Database: More flexible, key-value pairs      
+* Database indexing: find data more effeciently      
+* Replication
+* sharding      
+
+# Leader Election
+Choose a primary server to do some jobs      
+
+# Polling, Streaming, Sockets      
+* Polling is simply having your client "check" send a network request to your server and asking for updated data.      
 
