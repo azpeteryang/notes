@@ -28,4 +28,12 @@ Section 13: Smaller Essentials
 * Designing HA: Design a high availability (HA) system by designing 'redundancy' into the system.      
 
 # Proxy
-中间的服务器
+中间的服务器.     
+There are two types of proxies: a forward proxy and a reverse proxy; A forward proxy act as a proxy to act as a client in the interaction between client and server;
+A reverse proxy acts on behalf of a server;      
+A reverse proxy is very useful for the reason that it can be delegated a lot of tasks that you don't want your main server to handle.      
+
+# Load Balancing
+Server Selection Strategy: Round Robin and Weighted Round Robin; Load-based server selection; IP Hashing based selection (select based on geography); Path or service based selection; Mixed Bag (Load balancers for load balancers, different levels of services and functions.)
+
+
